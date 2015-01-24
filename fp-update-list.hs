@@ -2,7 +2,7 @@
 -- Read input from STDIN.
 -- Print output to STDOUT.
 
-f arr = -- Complete this function here.
+f arr = [ if x >= 0 then x else 0 - x | x <- arr]
 
 
 -- This section handles the Input/Output
